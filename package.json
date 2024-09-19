@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "start": "node dist/src/server.js",
-    "build": "tsx src",
+    "build": "tsup src",
     "test": "jest"
   },
   "keywords": [],
