@@ -2,11 +2,14 @@
   "name": "slider-back",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": "20"
+  },
   "scripts": {
-   "dev": "tsx watch src/server.ts",
-   "start": "node dist/src/server.js",
-   "build": "tsx src",
-   "test": "jest"
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/src/server.js",
+    "build": "tsx src",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
