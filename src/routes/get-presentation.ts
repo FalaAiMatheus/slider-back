@@ -1,10 +1,10 @@
 import express from "express";
 import { PresentationController } from "../controllers/presetation.controller";
 
-const { getPresentations } = new PresentationController();
+const { getPresentation } = new PresentationController();
 
 const router = express.Router();
 
-router.get("/presentations", getPresentations);
+router.get("/presentation/:id", getPresentation);
 
 export default router;
